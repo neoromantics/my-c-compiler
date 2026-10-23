@@ -1,0 +1,112 @@
+# Compiler executables and build directories
+/mycc
+/my-c-compiler
+/bin/
+/build/
+/dist/
+/out/
+/tmp/
+/temp/
+.mycc-*/
+
+# Go build/test artifacts and local workspace configuration
+*.exe
+*.exe~
+*.test
+*.out
+*.prof
+*.pprof
+*.coverprofile
+/coverage/
+/coverage.*
+/cover.out
+/cover.html
+/go.work
+/go.work.sum
+
+# C preprocessing, assembly, linking, and debugging artifacts
+*.i
+*.ii
+*.s
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.d
+*.dSYM/
+*.pdb
+*.ilk
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+a.out
+core
+core.[0-9]*
+
+# Example executables have no extension. Keep example sources and documentation.
+/examples/**
+!/examples/**/
+!/examples/**/*.c
+!/examples/**/*.h
+!/examples/**/*.md
+!/examples/**/Makefile
+!/examples/**/.gitignore
+
+# Local clone of the book's separately versioned upstream test suite.
+# https://github.com/nlsandler/writing-a-c-compiler-tests
+/writing-a-c-compiler-tests/
+
+# Tool caches and Python artifacts from the book's test runner
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local environment files (keep shareable examples/templates)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.local
+*.log
+
+# Editors, IDEs, and temporary backups
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+*.rej
+.history/
+.fleet/
+.#*
+\#*#
+
+# macOS, Windows, and Linux desktop metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100/
+.Trashes/
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.directory
+.Trash-*/
